@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="widht=device-width, initial-scale=1.0">
+    <title>BusTicketBooking</title>
+    <link rel="icon" href="images/busicon.png" type="image/gif">
+    <link rel="stylesheet" href="style.css">
+    <body>
+        <header>
+            <h1 id='heading'>BUS TICKET BOOKING</h1>
+        </header>
+        <form class="form" action='#'>
+            <div class="template">
+                <label>Name</label>
+            <input type="text" placeholder="Name" id="form-name">
+            <div class="error" id='nameErr'></div>
+             </div>
+             <div class="template">
+                 <label>DOB</label>
+            <input type="text" placeholder="month/date/year" id="dob">
+            <div class="error" id='dobErr'></div>
+             </div>
+             <div class="template">
+                 <div class='selectType'>
+                 <label><input type="radio" name="traveltype" id='oneway traveltype'>Oneway</label>
+                 <label><input type="radio" name="traveltype" id='Roundway traveltype'>Roundway</label>
+                </div>
+             </div>
+             <div class="template">
+                 <label>From</label>
+                 <select id="from">
+                     <option>Chennai</option>
+                     <option>Cuddalore</option>
+                     <option>Trichy</option>
+                 </select>
+             </div>
+             <div class="template">
+                <label>To</label>
+                <select id="to">
+                    <option>Trichy</option>
+                    <option>Cuddalore</option>
+                    <option>Chennai</option>
+                </select>
+            </div>
+             <div class="template">
+                 <label>Passangers Count</label>
+                 <input type="number" min="1" max="10" placeholder="No of Passangers">
+             </div>
+             <div class="template">
+                <label>BusType</label>
+                <select id="bustype">
+                    <option>Non-AC 2S</option>
+                    <option>AC 2S</option>
+                    <option>AC Sleeper</option>
+                    <option>Non-AC Sleeper</option>
+                </select>
+            </div>
+            <div class="template">
+            <input type="submit" id="submit" value="Book Ticket"/>
+        </div>
+        </form>
+    </body>
+</html>

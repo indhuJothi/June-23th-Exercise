@@ -1,0 +1,48 @@
+body {
+  background-image: url(back-img.jpg);
+  background-size: 100%;
+}
+#heading {
+  color: chartreuse;
+  text-align: center;
+  font-style: italic;
+  font-family: Georgia;
+}
+.form {
+  width: 300px;
+  background-color: thistle;
+  padding: 15px 40px 40px;
+  border: 1px solid #ccc;
+  margin: auto;
+  border-radius: 6px;
+}
+.template {
+  padding-bottom: 5px;
+}
+label {
+  color: blueviolet;
+  padding: 2px;
+}
+
+input,
+select {
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.selectType input {
+  display: inline;
+  width: 10px;
+}
+#submit {
+  font-size: 20px;
+  font-weight: bold;
+  background: #006dcc;
+  color: #fff;
+  margin-top: 10px;
+  cursor: pointer;
+}
